@@ -34,7 +34,8 @@ function addTask(e) {
         //create x btn
         const link = document.createElement('a');
         link.className = 'delete-item secondary-content';
-        link.innerHTML = '<i class="fa fa-delete"></i>';
+        link.innerHTML = '<i class="fas fa-trash"></i>';
+
         // add to link item
         li.appendChild(link)
             //append li to ul
